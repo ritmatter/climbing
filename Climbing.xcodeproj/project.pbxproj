@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		715383880C7778379E5D9D9E /* Pods_ClimbingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EEABC8EE456203003270C1 /* Pods_ClimbingUITests.framework */; };
+		7F8DA07A4DF1892671223A08 /* Pods_Climbing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABEC9A336B6B40E861A9A3A /* Pods_Climbing.framework */; };
 		89DAE4DE1FD504CC0082A739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE4DD1FD504CC0082A739 /* AppDelegate.swift */; };
 		89DAE4E01FD504CC0082A739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE4DF1FD504CC0082A739 /* ViewController.swift */; };
 		89DAE4E31FD504CC0082A739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DAE4E11FD504CC0082A739 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		89DAE4E81FD504CC0082A739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DAE4E61FD504CC0082A739 /* LaunchScreen.storyboard */; };
 		89DAE4F31FD504CC0082A739 /* ClimbingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE4F21FD504CC0082A739 /* ClimbingTests.swift */; };
 		89DAE4FE1FD504CC0082A739 /* ClimbingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE4FD1FD504CC0082A739 /* ClimbingUITests.swift */; };
+		89DAE50C1FD5050F0082A739 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89DAE50B1FD5050E0082A739 /* GoogleService-Info.plist */; };
+		BD1BD619CEED27A6EB31E519 /* Pods_ClimbingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B459727E9186137F2B0E7C3D /* Pods_ClimbingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A68A7FE51A6B28CC5673B86 /* Pods-ClimbingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbingUITests/Pods-ClimbingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		29C359F3848B014B66E5BA01 /* Pods-ClimbingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbingTests/Pods-ClimbingTests.release.xcconfig"; sourceTree = "<group>"; };
+		4744C6E331B15E72A8A26A05 /* Pods-Climbing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climbing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Climbing/Pods-Climbing.debug.xcconfig"; sourceTree = "<group>"; };
+		5A7CA317562B6A60526B46B3 /* Pods-Climbing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climbing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Climbing/Pods-Climbing.release.xcconfig"; sourceTree = "<group>"; };
+		87494C688D94AAC9D0BC3ACF /* Pods-ClimbingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbingTests/Pods-ClimbingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		89DAE4DA1FD504CC0082A739 /* Climbing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Climbing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DAE4DD1FD504CC0082A739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DAE4DF1FD504CC0082A739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		89DAE4F91FD504CC0082A739 /* ClimbingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimbingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DAE4FD1FD504CC0082A739 /* ClimbingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingUITests.swift; sourceTree = "<group>"; };
 		89DAE4FF1FD504CC0082A739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DAE50B1FD5050E0082A739 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6A2C5FE2CA89C3880DB39A9 /* Pods-ClimbingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbingUITests/Pods-ClimbingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9EEABC8EE456203003270C1 /* Pods_ClimbingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B459727E9186137F2B0E7C3D /* Pods_ClimbingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABEC9A336B6B40E861A9A3A /* Pods_Climbing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Climbing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8DA07A4DF1892671223A08 /* Pods_Climbing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1BD619CEED27A6EB31E519 /* Pods_ClimbingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715383880C7778379E5D9D9E /* Pods_ClimbingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		297CE659567EC5522B55AC77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4744C6E331B15E72A8A26A05 /* Pods-Climbing.debug.xcconfig */,
+				5A7CA317562B6A60526B46B3 /* Pods-Climbing.release.xcconfig */,
+				87494C688D94AAC9D0BC3ACF /* Pods-ClimbingTests.debug.xcconfig */,
+				29C359F3848B014B66E5BA01 /* Pods-ClimbingTests.release.xcconfig */,
+				A6A2C5FE2CA89C3880DB39A9 /* Pods-ClimbingUITests.debug.xcconfig */,
+				1A68A7FE51A6B28CC5673B86 /* Pods-ClimbingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B949552771198BE2231C7E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CABEC9A336B6B40E861A9A3A /* Pods_Climbing.framework */,
+				B459727E9186137F2B0E7C3D /* Pods_ClimbingTests.framework */,
+				A9EEABC8EE456203003270C1 /* Pods_ClimbingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89DAE4D11FD504CC0082A739 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				89DAE4F11FD504CC0082A739 /* ClimbingTests */,
 				89DAE4FC1FD504CC0082A739 /* ClimbingUITests */,
 				89DAE4DB1FD504CC0082A739 /* Products */,
+				297CE659567EC5522B55AC77 /* Pods */,
+				7B949552771198BE2231C7E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				89DAE4E41FD504CC0082A739 /* Assets.xcassets */,
 				89DAE4E61FD504CC0082A739 /* LaunchScreen.storyboard */,
 				89DAE4E91FD504CC0082A739 /* Info.plist */,
+				89DAE50B1FD5050E0082A739 /* GoogleService-Info.plist */,
 			);
 			path = Climbing;
 			sourceTree = "<group>";
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89DAE5021FD504CC0082A739 /* Build configuration list for PBXNativeTarget "Climbing" */;
 			buildPhases = (
+				D1B1A7E6759983CB34CF74A3 /* [CP] Check Pods Manifest.lock */,
 				89DAE4D61FD504CC0082A739 /* Sources */,
 				89DAE4D71FD504CC0082A739 /* Frameworks */,
 				89DAE4D81FD504CC0082A739 /* Resources */,
+				F4FA740549ABF849E21FDFE0 /* [CP] Embed Pods Frameworks */,
+				5552E02660DC92AEBF52D801 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89DAE5051FD504CC0082A739 /* Build configuration list for PBXNativeTarget "ClimbingTests" */;
 			buildPhases = (
+				229A745BA52DC371DF1185A4 /* [CP] Check Pods Manifest.lock */,
 				89DAE4EA1FD504CC0082A739 /* Sources */,
 				89DAE4EB1FD504CC0082A739 /* Frameworks */,
 				89DAE4EC1FD504CC0082A739 /* Resources */,
+				C4F868DC1C7B0F0566F45E2D /* [CP] Embed Pods Frameworks */,
+				0219E2E209BD609073C4F15B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89DAE5081FD504CC0082A739 /* Build configuration list for PBXNativeTarget "ClimbingUITests" */;
 			buildPhases = (
+				3093541D3E0B2704491CF781 /* [CP] Check Pods Manifest.lock */,
 				89DAE4F51FD504CC0082A739 /* Sources */,
 				89DAE4F61FD504CC0082A739 /* Frameworks */,
 				89DAE4F71FD504CC0082A739 /* Resources */,
+				0DCE52B784B2A351E4DABCDA /* [CP] Embed Pods Frameworks */,
+				DFD1DA094EFD7C1E4503DFC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89DAE4E81FD504CC0082A739 /* LaunchScreen.storyboard in Resources */,
+				89DAE50C1FD5050F0082A739 /* GoogleService-Info.plist in Resources */,
 				89DAE4E51FD504CC0082A739 /* Assets.xcassets in Resources */,
 				89DAE4E31FD504CC0082A739 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +306,194 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0219E2E209BD609073C4F15B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbingTests/Pods-ClimbingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DCE52B784B2A351E4DABCDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbingUITests/Pods-ClimbingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		229A745BA52DC371DF1185A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimbingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3093541D3E0B2704491CF781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimbingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5552E02660DC92AEBF52D801 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Climbing/Pods-Climbing-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Climbing/Pods-Climbing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F868DC1C7B0F0566F45E2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbingTests/Pods-ClimbingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B1A7E6759983CB34CF74A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Climbing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD1DA094EFD7C1E4503DFC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClimbingUITests/Pods-ClimbingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FA740549ABF849E21FDFE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Climbing/Pods-Climbing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Climbing/Pods-Climbing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89DAE4D61FD504CC0082A739 /* Sources */ = {
@@ -424,9 +665,11 @@
 		};
 		89DAE5031FD504CC0082A739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4744C6E331B15E72A8A26A05 /* Pods-Climbing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q36JC3267;
 				INFOPLIST_FILE = Climbing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ritmatter.Climbing;
@@ -438,9 +681,11 @@
 		};
 		89DAE5041FD504CC0082A739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7CA317562B6A60526B46B3 /* Pods-Climbing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Q36JC3267;
 				INFOPLIST_FILE = Climbing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ritmatter.Climbing;
@@ -452,6 +697,7 @@
 		};
 		89DAE5061FD504CC0082A739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87494C688D94AAC9D0BC3ACF /* Pods-ClimbingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +714,7 @@
 		};
 		89DAE5071FD504CC0082A739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C359F3848B014B66E5BA01 /* Pods-ClimbingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +731,7 @@
 		};
 		89DAE5091FD504CC0082A739 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A2C5FE2CA89C3880DB39A9 /* Pods-ClimbingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +747,7 @@
 		};
 		89DAE50A1FD504CC0082A739 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A68A7FE51A6B28CC5673B86 /* Pods-ClimbingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

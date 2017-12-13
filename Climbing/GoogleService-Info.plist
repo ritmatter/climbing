@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>778991249752-lhd8ao2g0m7ud3e4nc3op228grtfprfu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.778991249752-lhd8ao2g0m7ud3e4nc3op228grtfprfu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC06dTR2o1JQjfqCXqJRu1rE7K-idouXHQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>778991249752</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ritmatter.Climbing</string>
+	<key>PROJECT_ID</key>
+	<string>climber-a1f52</string>
+	<key>STORAGE_BUCKET</key>
+	<string>climber-a1f52.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:778991249752:ios:4d8fa5f9b8ab304e</string>
+	<key>DATABASE_URL</key>
+	<string>https://climber-a1f52.firebaseio.com</string>
+</dict>
+</plist>
