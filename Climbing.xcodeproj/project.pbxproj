@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		715383880C7778379E5D9D9E /* Pods_ClimbingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EEABC8EE456203003270C1 /* Pods_ClimbingUITests.framework */; };
 		7F8DA07A4DF1892671223A08 /* Pods_Climbing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABEC9A336B6B40E861A9A3A /* Pods_Climbing.framework */; };
+		89CEEAAA1FF0212700100D94 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEEAA91FF0212700100D94 /* SignInViewController.swift */; };
 		89DAE4DE1FD504CC0082A739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE4DD1FD504CC0082A739 /* AppDelegate.swift */; };
 		89DAE4E01FD504CC0082A739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAE4DF1FD504CC0082A739 /* ViewController.swift */; };
 		89DAE4E31FD504CC0082A739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DAE4E11FD504CC0082A739 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		4744C6E331B15E72A8A26A05 /* Pods-Climbing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climbing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Climbing/Pods-Climbing.debug.xcconfig"; sourceTree = "<group>"; };
 		5A7CA317562B6A60526B46B3 /* Pods-Climbing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Climbing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Climbing/Pods-Climbing.release.xcconfig"; sourceTree = "<group>"; };
 		87494C688D94AAC9D0BC3ACF /* Pods-ClimbingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClimbingTests/Pods-ClimbingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89CEEAA91FF0212700100D94 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		89DAE4DA1FD504CC0082A739 /* Climbing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Climbing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DAE4DD1FD504CC0082A739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DAE4DF1FD504CC0082A739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				89DAE4DD1FD504CC0082A739 /* AppDelegate.swift */,
 				89DAE4DF1FD504CC0082A739 /* ViewController.swift */,
 				89DAE4E11FD504CC0082A739 /* Main.storyboard */,
+				89CEEAA91FF0212700100D94 /* SignInViewController.swift */,
 				89DAE4E41FD504CC0082A739 /* Assets.xcassets */,
 				89DAE4E61FD504CC0082A739 /* LaunchScreen.storyboard */,
 				89DAE4E91FD504CC0082A739 /* Info.plist */,
@@ -502,6 +505,7 @@
 			files = (
 				89DAE4E01FD504CC0082A739 /* ViewController.swift in Sources */,
 				89DAE4DE1FD504CC0082A739 /* AppDelegate.swift in Sources */,
+				89CEEAAA1FF0212700100D94 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

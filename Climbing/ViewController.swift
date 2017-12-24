@@ -9,30 +9,19 @@
 import UIKit
 import CoreMotion
 import Firebase
-import GoogleSignIn
-import FirebaseAuthUI
 
-class ViewController: UIViewController, GIDSignInUIDelegate {
+class ViewController: UIViewController {
   //MARK: Properties
   @IBOutlet weak var recordButton: UIButton!
   @IBOutlet weak var metersLabel: UILabel!
   @IBOutlet weak var metersReading: UILabel!
-  @IBOutlet weak var signInButton: GIDSignInButton!
-
   lazy var altimeter = CMAltimeter()
-  var db: DatabaseReference!
-  var delegate: AppDelegate!
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    metersLabel.isHidden = true
-    metersReading.isHidden = true
-      
-    GIDSignIn.sharedInstance().uiDelegate = self
-    GIDSignIn.sharedInstance().signIn()
-    db = Database.database().reference()
-    
-    delegate = UIApplication.shared.delegate as! AppDelegate
+
+    metersLabel.isHidden = false
+    metersReading.isHidden = false
   }
 
   override func didReceiveMemoryWarning() {
@@ -47,6 +36,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
         NSLog("Barameter unavailable alert.")
       }))
       self.present(alert, animated: true, completion: nil)
+      return
     }
 
     self.altimeter.startRelativeAltitudeUpdates(to: OperationQueue.main, withHandler: { (altitudeData:CMAltitudeData?, error:Error?) in
@@ -62,10 +52,10 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
         // Update labels, truncate float to two decimal points
         self.metersReading.text = String(format: "%.02f", altitude)
         
-        let user = self.delegate.user!
+        let user = Auth.auth().currentUser!;
         print(user.uid)
         print(String(Int(NSDate().timeIntervalSince1970)))
-        self.db.child("altitudes")
+        Database.database().reference().child("altitudes")
           .child(user.uid)
           .child(String(Int(NSDate().timeIntervalSince1970)))
           .setValue(altitude)
