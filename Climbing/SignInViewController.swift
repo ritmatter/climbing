@@ -45,9 +45,9 @@ class SignInViewController: UIViewController, GIDSignInUIDelegate, GIDSignInDele
         return
       }
       
-      // TODO: Stop overwriting the username on every time the app view loads.
       let ref = Database.database().reference()
-      ref.child("users").child(user!.uid).setValue(["email": user!.email])
+      let nonNullUser = user!
+      ref.child("users").child(nonNullUser.uid).setValue(["email": nonNullUser.email])
       self.performSegue(withIdentifier: "GoToMainScreen", sender: self)
     }
   }

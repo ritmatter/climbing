@@ -16,12 +16,20 @@ class ViewController: UIViewController {
   @IBOutlet weak var metersLabel: UILabel!
   @IBOutlet weak var metersReading: UILabel!
   lazy var altimeter = CMAltimeter()
-  
+  lazy var sessionId = ""
+
   override func viewDidLoad() {
     super.viewDidLoad()
 
     metersLabel.isHidden = false
     metersReading.isHidden = false
+    
+    if (!CMAltimeter.isRelativeAltitudeAvailable()) {
+      let alert = UIAlertController(title: "Barometer Unavilable", message: "Barometer is not available.", preferredStyle: .alert)
+      alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Dismiss"), style: .`default`, handler: { _ in
+        NSLog("Barameter unavailable alert.")
+      }))
+    }
   }
 
   override func didReceiveMemoryWarning() {
@@ -39,6 +47,17 @@ class ViewController: UIViewController {
       return
     }
 
+    // Start a new session.
+    self.sessionId = UUID().uuidString
+    let serverTimeStamp = ServerValue.timestamp() as! [String:Any]
+    Database.database().reference()
+      .child("sessions")
+      .child(Auth.auth().currentUser!.uid)
+      .child(self.sessionId)
+      .setValue([
+        "start_time": serverTimeStamp
+        ])
+    
     self.altimeter.startRelativeAltitudeUpdates(to: OperationQueue.main, withHandler: { (altitudeData:CMAltitudeData?, error:Error?) in
       if (error != nil) {
         self.altimeter.stopRelativeAltitudeUpdates()
@@ -52,17 +71,32 @@ class ViewController: UIViewController {
         // Update labels, truncate float to two decimal points
         self.metersReading.text = String(format: "%.02f", altitude)
         
-        let user = Auth.auth().currentUser!;
-        print(user.uid)
-        print(String(Int(NSDate().timeIntervalSince1970)))
-        Database.database().reference().child("altitudes")
-          .child(user.uid)
-          .child(String(Int(NSDate().timeIntervalSince1970)))
-          .setValue(altitude)
+        let serverTimeStamp = ServerValue.timestamp() as! [String:Any]
+        Database.database().reference()
+          .child("telemetry")
+          .child(Auth.auth().currentUser!.uid)
+          .child(UUID().uuidString)
+          .setValue([
+            "session": self.sessionId,
+            "altitude": altitude,
+            "timestamp": serverTimeStamp
+            ])
       }
     })
   }
   
+  func stopSession() {
+    altimeter.stopRelativeAltitudeUpdates()
+    
+    let serverTimeStamp = ServerValue.timestamp() as! [String:Any]
+    Database.database().reference()
+      .child("sessions")
+      .child(Auth.auth().currentUser!.uid)
+      .child(self.sessionId)
+      .updateChildValues(["end_time": serverTimeStamp])
+    self.sessionId = ""
+  }
+
   //MARK: Actions
   @IBAction func changeRecordStatus(_ sender: UIButton) {
     if (recordButton.currentTitle == "RECORD") {
@@ -71,7 +105,7 @@ class ViewController: UIViewController {
       recordButton.setTitle("STOP", for: UIControlState.normal)
       startAltimeter()
     } else {
-      altimeter.stopRelativeAltitudeUpdates()
+      stopSession()
       metersLabel.isHidden = true
       metersReading.isHidden = true
       recordButton.setTitle("RECORD", for: UIControlState.normal)
